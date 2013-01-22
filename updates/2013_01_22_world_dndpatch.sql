@@ -1,0 +1,1 @@
+UPDATE `mangos_string` SET `content_default`='%s wishes to not be disturbed: %s' WHERE  `entry`=707 LIMIT 1;
