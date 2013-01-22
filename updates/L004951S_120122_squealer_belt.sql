@@ -1,0 +1,1 @@
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`=100 WHERE  `entry`=3229 AND `item`=4951 LIMIT 1;
