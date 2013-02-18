@@ -4,20 +4,23 @@ This is where we store all our database patches.
 
 Safe & Danger
 -------------
-*Safe (S)* means that the patch should be safe to apply without any duplicate rows, guids are not used in the WHERE clause, and so on and so forth.
+**Safe (S)** means that the patch should be safe to apply without any duplicate rows, guids are not used in the WHERE clause, and so on and so forth.
 
-*Danger (D)* means that the patch might cause issues when applied and therefore might need to be manually edited. This can be due to guids being used, possibility of duplicate rows, etc.
+**Danger (D)** means that the patch might cause issues when applied and therefore might need to be manually edited. This can be due to guids being used, possibility of duplicate rows, etc.
 
 Warning!
 --------
-*SQL Inserts*
+**SQL Inserts**
+
 There have been several structural changes to the new **official mangoszero database** after we forked their old official mangos-zero database such as a new conditions system, new columns, etc.
 In most cases our SQL Inserts do not specify column names so if you attempt to apply these patches to any other repository than the official Project Silverpine one, you will likely get errors.
 
-*Gossip text*
+**Gossip text**
+
 Most gossip text has been taken directly from the TrinityCore 3.3.5 (WoTLK) database. These are not necessarily 100% blizzlike but I doubt a lot was changed from 1.12.1 (classic) to 3.3.5 (WoTLK).
 
 The IDs used in some of our patches are placeholders due to us being unable to find the correct, blizzlike IDs. The range we use for these is 50000 and over.
 
-*Blizzlike*
+**Blizzlike**
+
 We try our absolute best to keep everything blizzlike. We never intentionally create patches that are non-blizzlike. We sometimes make mistakes due to lack of research or sources however.
