@@ -6,7 +6,7 @@
 # ENTRY: 12799
 # 'spawntimesecs' might not be correct
 # Inserting the NPC into 'creature' table
-INSERT INTO `creature` VALUES (160016, 12799, 1, 12681, 0, 1632.38, -4262.25, 48.978973, 3.991370, 300, 0, 0, 4108, 0, 0, 0);
+INSERT INTO `creature` VALUES (160017, 12799, 1, 12681, 0, 1632.38, -4262.25, 48.978973, 3.991370, 300, 0, 0, 4108, 0, 0, 0);
 #
 # Adding correct vendor items to the NPC
 # DELETING ANY OLD ENTRIES
