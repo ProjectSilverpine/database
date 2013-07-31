@@ -1,3 +1,8 @@
+Transfer to mangoszero
+----------------------
+Ghurok will personally research all the remaining patches by himself. You do not need to spend
+time doing so.
+
 Updates
 -------
 This is where we store all our database patches.
